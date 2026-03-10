@@ -13,13 +13,13 @@ async function run() {
     const server = http.createServer(app);
 
     const port = Number(env.PORT) || 3500;
-
+    
  
     server.listen(port, () => {
       logger.info(`Server is now listening to port: http://localhost:${port}`);
     });
   } catch (err) {
-    logger.error("Failed to start the server", `${(err as Error).message}`);
+    logger.error(`Failed to start the server: ${(err as Error).message}`);
     process.exit(1);
   }
 }
