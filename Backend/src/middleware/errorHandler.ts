@@ -4,9 +4,13 @@ import { ZodError } from "zod";
 import { logger } from "../lib/logger.js";
 
 export const errorHandler: ErrorRequestHandler = (err, req, res, _next) => {
+  
+  console.error("🔥 CRASH LOG:", err); 
+  
   let status = 500;
   let message = "Internal server error";
   let details: unknown = undefined;
+
   if (err instanceof HttpError) {
     status = err.status;
     message = err.message;
@@ -19,7 +23,9 @@ export const errorHandler: ErrorRequestHandler = (err, req, res, _next) => {
       message: issue.message,
     }));
   }
+
   logger.error(`${req.method} ${req.originalUrl} --> ${status}-${message}`);
+  
   res.status(status).json({
     error: {
       message,
