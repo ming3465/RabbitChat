@@ -1,9 +1,12 @@
-import Image from "next/image";
+import ThreadsHomePage from "@/components/threads/threads-home";
+import { Suspense } from "react";
 
-export default function Home() {
+export default function ThreadsPage() {
   return (
-    <div className = "flex min-h-screen items-center justify-center bg-zinc-50 font-sans ">
-      <p className = "text-black">Homepage</p>
+    <div className="flex w-full   flex-1 flex-col">
+      <Suspense fallback={<div>Loading...</div>}>
+        <ThreadsHomePage />
+      </Suspense>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { SignIn, SignUp } from "@clerk/nextjs";
+import { SignUp } from "@clerk/nextjs";
 import Link from "next/link";
 
 export default function SignUpPage() {
@@ -19,7 +19,7 @@ export default function SignUpPage() {
           />
         </div>
         <p className="text-center text-xs text-muted-foreground">
-          Already have an account? 
+          Already have an account?
           <Link
             className="font-medium text-primary hover:text-primary/90"
             href={"/sign-in"}
