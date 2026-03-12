@@ -3,11 +3,11 @@
 full-stack, real-time messaging application
 
 ## Screenshots
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/accb5a08-d164-4d98-9212-c18f090a18b2" />
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/d5ad9314-0a96-469f-9c71-bc0e3449cb73" />
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/58731db0-9697-4c30-9ed2-b7993b6e99ea" />
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/b990ecd1-7e16-46fe-9dfc-3a62ec303bcf" />
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/b25c071d-f821-4263-95fe-5c9a78f6cafc" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/accb5a08-d164-4d98-9212-c18f090a18b2" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/d5ad9314-0a96-469f-9c71-bc0e3449cb73" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/58731db0-9697-4c30-9ed2-b7993b6e99ea" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/b990ecd1-7e16-46fe-9dfc-3a62ec303bcf" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/b25c071d-f821-4263-95fe-5c9a78f6cafc" />
 
 ## ⚙️ Getting Started
 
