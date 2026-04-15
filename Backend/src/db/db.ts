@@ -7,7 +7,8 @@ export const pool = new Pool({
     port : Number(env.DB_PORT),
     database : env.DB_NAME,
     user: env.DB_USER,
-    password : env.DB_PASSWORD
+    password : env.DB_PASSWORD,
+    ssl: true,
 });
 
 export async function query<T extends QueryResultRow = QueryResultRow>(
