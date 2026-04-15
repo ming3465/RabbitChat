@@ -9,7 +9,8 @@ const envSchema = z.object({
     DB_USER: z.string().default('MikasaN'),
     DB_PASSWORD: z.string().default('ming3465'),
     NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: z.string(),
-    CLERK_SECRET_KEY: z.string()
+    CLERK_SECRET_KEY: z.string(),
+    FRONTEND_URL: z.string().default('http://localhost:4000')
 });
 const parsed = envSchema.safeParse(process.env);
 // console.log(typeof process.env.HOME);

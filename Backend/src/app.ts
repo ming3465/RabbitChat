@@ -15,12 +15,12 @@ export function createApp() {
 
   app.use(
     cors({
-      origin: ["http://localhost:4000"],
+      origin: [env.FRONTEND_URL],
       credentials: true,
     })
   );
 
-  app.get("/", (req, res) => {
+  app.get("/", (_req, res) => {
     res.json({ message: "Backend is running smoothly!" });
   });
 
