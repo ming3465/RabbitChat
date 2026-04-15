@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "next dev -p 4000",
     "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
+    "start": "next start",
+    "postinstall": "patch-package || exit 0"
+    },
+    "dependencies": {
     "@clerk/nextjs": "^6.35.5",
     "@hookform/resolvers": "^5.2.2",
     "@radix-ui/react-avatar": "^1.1.11",

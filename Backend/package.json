@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "@clerk/express": "^2.0.1",
-    "@clerk/nextjs": "^7.0.4",
+    "@clerk/nextjs": "^7.2.1",
     "@hookform/resolvers": "^5.2.2",
     "axios": "^1.13.6",
     "cloudinary": "^2.9.0",
